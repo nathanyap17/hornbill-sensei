@@ -1,0 +1,33 @@
+# Sarawak Tourism & Culture Synth - Dependencies
+
+# Google AI
+google-generativeai>=0.3.0
+
+# LangChain
+langchain>=0.1.0
+langchain-community>=0.0.10
+
+# Vector Database
+chromadb>=0.4.0
+
+# PDF Processing
+pypdf>=3.0.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Web UI
+streamlit>=1.30.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# MCP Server
+mcp>=1.0.0
+
+# Google ADK (Agent Development Kit)
+google-adk>=0.1.0
+
+# Additional utilities
+numpy>=1.24.0
+pandas>=2.0.0
