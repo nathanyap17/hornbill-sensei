@@ -1,4 +1,4 @@
-# 🌴 Sarawak Tourism & Culture Synth
+# 🌴 Hornbill Sensei - Sarawak Tourism & Culture Synth
 
 An AI-powered tourism assistant for Sarawak, Malaysia, built with a **3-agent swarm architecture** using Gemini 2.5 Flash, RAG (Retrieval-Augmented Generation), and Streamlit.
 
@@ -6,30 +6,30 @@ An AI-powered tourism assistant for Sarawak, Malaysia, built with a **3-agent sw
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    User Query (Streamlit UI)                     │
+│                    User Query (Streamlit UI)                    │
 └─────────────────────────────────────────────────────────────────┘
                                 │
                                 ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│              🔍 Trip Planner Agent (Gemini 2.5 Flash)            │
+│              🔍 Trip Planner Agent (Gemini 2.5 Flash)          │
 │         Analyzes query → Extracts key topic/location            │
 └─────────────────────────────────────────────────────────────────┘
                                 │
                                 ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│               📚 Sarawak Info Agent (RAG Pipeline)               │
+│               📚 Sarawak Info Agent (RAG Pipeline)             │
 │     Searches ChromaDB → Retrieves relevant document chunks      │
 └─────────────────────────────────────────────────────────────────┘
                                 │
                                 ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│              🎯 Tour Guide Agent (Gemini 2.5 Flash)              │
+│              🎯 Tour Guide Agent (Gemini 2.5 Flash)            │
 │      Synthesizes context → Friendly tour guide response         │
 └─────────────────────────────────────────────────────────────────┘
                                 │
                                 ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                    Response to User                              │
+│                    Response to User                             │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
